@@ -1,0 +1,16 @@
+Digraph G {
+Mus        Rattus      - > Mus        
+Mus        Rattus      - > Rattus     
+Homo       Bos         - > Homo       
+Homo       Bos         - > Bos        
+Homo       Bos        Mus        Rattus      - > Homo       Bos        
+Homo       Bos        Mus        Rattus      - > Mus        Rattus     
+Homo       Bos        Mus        Rattus     Xenopus     - > Homo       Bos        Mus        Rattus     
+Homo       Bos        Mus        Rattus     Xenopus     - > Xenopus    
+Homo       Bos        Mus        Rattus     Xenopus    Drosophila  - > Homo       Bos        Mus        Rattus     Xenopus    
+Homo       Bos        Mus        Rattus     Xenopus    Drosophila  - > Drosophila 
+Gallus     Danio       - > Gallus     
+Gallus     Danio       - > Danio      
+Homo       Bos        Mus        Rattus     Xenopus    Drosophila Gallus     Danio       - > Homo       Bos        Mus        Rattus     Xenopus    Drosophila 
+Homo       Bos        Mus        Rattus     Xenopus    Drosophila Gallus     Danio       - > Gallus     Danio      
+}
